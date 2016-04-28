@@ -14,6 +14,9 @@
 		4D9399251CD1ADAA0034E61D /* TableSelectAll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D9399231CD1ADAA0034E61D /* TableSelectAll.xcdatamodeld */; };
 		4D9399271CD1ADAA0034E61D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9399261CD1ADAA0034E61D /* Assets.xcassets */; };
 		4D93992A1CD1ADAA0034E61D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9399281CD1ADAA0034E61D /* LaunchScreen.storyboard */; };
+		4D9399341CD1B2CC0034E61D /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9399321CD1B2CC0034E61D /* TableViewCell.m */; };
+		4D9399351CD1B2CC0034E61D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9399331CD1B2CC0034E61D /* TableViewCell.xib */; };
+		4D9399381CD1B4F00034E61D /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9399371CD1B4F00034E61D /* Food.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,11 @@
 		4D9399261CD1ADAA0034E61D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D9399291CD1ADAA0034E61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D93992B1CD1ADAA0034E61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9399311CD1B2CC0034E61D /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		4D9399321CD1B2CC0034E61D /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		4D9399331CD1B2CC0034E61D /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		4D9399361CD1B4F00034E61D /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		4D9399371CD1B4F00034E61D /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,11 @@
 				4D93991D1CD1ADAA0034E61D /* ViewController.h */,
 				4D93991E1CD1ADAA0034E61D /* ViewController.m */,
 				4D9399201CD1ADAA0034E61D /* Main.storyboard */,
+				4D9399311CD1B2CC0034E61D /* TableViewCell.h */,
+				4D9399321CD1B2CC0034E61D /* TableViewCell.m */,
+				4D9399331CD1B2CC0034E61D /* TableViewCell.xib */,
+				4D9399361CD1B4F00034E61D /* Food.h */,
+				4D9399371CD1B4F00034E61D /* Food.m */,
 				4D9399261CD1ADAA0034E61D /* Assets.xcassets */,
 				4D9399281CD1ADAA0034E61D /* LaunchScreen.storyboard */,
 				4D93992B1CD1ADAA0034E61D /* Info.plist */,
@@ -140,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D93992A1CD1ADAA0034E61D /* LaunchScreen.storyboard in Resources */,
+				4D9399351CD1B2CC0034E61D /* TableViewCell.xib in Resources */,
 				4D9399271CD1ADAA0034E61D /* Assets.xcassets in Resources */,
 				4D9399221CD1ADAA0034E61D /* Main.storyboard in Resources */,
 			);
@@ -155,6 +169,8 @@
 				4D9399251CD1ADAA0034E61D /* TableSelectAll.xcdatamodeld in Sources */,
 				4D93991F1CD1ADAA0034E61D /* ViewController.m in Sources */,
 				4D93991C1CD1ADAA0034E61D /* AppDelegate.m in Sources */,
+				4D9399381CD1B4F00034E61D /* Food.m in Sources */,
+				4D9399341CD1B2CC0034E61D /* TableViewCell.m in Sources */,
 				4D9399191CD1ADAA0034E61D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
